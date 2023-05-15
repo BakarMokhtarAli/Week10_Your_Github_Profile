@@ -16,4 +16,4 @@ function FollowingList(props) {
   )
 }
 
-export default FollowingList
+export default FollowingList;

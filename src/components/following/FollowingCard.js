@@ -6,7 +6,6 @@ import React from 'react'
 function FollowingCard(props) {
 
     const {user} = props;
-
   return (
     <div className="flex items-center gap-3 px-2 py-3 bg-white rounded border w-full ">
     <div className="h-[60px] shadow-md w-[60px] rounded-full border-4 overflow-hidden border-white">

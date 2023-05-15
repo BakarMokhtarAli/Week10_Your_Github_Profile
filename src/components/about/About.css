@@ -1,0 +1,65 @@
+.repos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.repo{
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.repo h1{
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
+.repo h1:hover{
+    text-decoration: underline;
+}
+
+.repo h1 span{
+    font-weight: bold;
+    color: #313131;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+ span{
+    font-weight: bold;
+    color: #313131;
+}
+
+.repo p{
+    color: #b3b3b3;
+}
+
+.public{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c !important;
+}
